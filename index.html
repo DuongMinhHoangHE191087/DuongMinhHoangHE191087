@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio - dự án và kinh nghiệm">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="brand">&lt;/&gt;</a>
+    <nav>
+      <a href="#projects">Dự án</a>
+      <a href="#experience">Kinh nghiệm</a>
+      <a href="#skills">Kỹ năng</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+    <button id="theme-toggle" class="icon-btn" aria-label="Đổi giao diện">🌙</button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <img id="avatar" class="avatar" alt="Avatar">
+        <p class="eyebrow">Xin chào, tôi là</p>
+        <h1 id="name"></h1>
+        <p class="typing"><span id="typed"></span><span class="caret">|</span></p>
+        <p id="bio" class="bio"></p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">Xem dự án</a>
+          <a id="gh-link" class="btn" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <a href="#stats" class="scroll-hint" aria-label="Cuộn xuống">↓</a>
+    </section>
+
+    <section class="stats" id="stats">
+      <div class="stat"><span class="num" id="stat-repos" data-target="0">0</span><span>Repositories</span></div>
+      <div class="stat"><span class="num" id="stat-stars" data-target="0">0</span><span>Stars</span></div>
+      <div class="stat"><span class="num" id="stat-followers" data-target="0">0</span><span>Followers</span></div>
+      <div class="stat"><span class="num" id="stat-projects" data-target="0">0</span><span>Dự án nổi bật</span></div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title reveal"><span>01.</span> Dự án nổi bật</h2>
+      <div class="filters" id="filters"></div>
+      <div class="grid" id="projects-grid"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2 class="section-title reveal"><span>02.</span> Kinh nghiệm</h2>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title reveal"><span>03.</span> Kỹ năng</h2>
+      <div class="skills" id="skills-wrap"></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 class="section-title reveal"><span>04.</span> Liên hệ</h2>
+      <p class="reveal">Mình luôn sẵn sàng trao đổi về dự án mới hoặc cơ hội hợp tác.</p>
+      <div class="cta reveal" id="contact-links"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Xây dựng bằng HTML, CSS và JavaScript thuần · <span id="year"></span></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
