@@ -1,16 +1,35 @@
-## Hi there 👋
+# Đặt file này vào: .github/workflows/snake.yml trong repo username/username
+# Action sẽ tự tạo ảnh rắn ăn các ô đóng góp, chạy mỗi 12 giờ và khi bạn push.
+# Tham khảo thêm và phiên bản mới nhất tại: https://github.com/Platane/snk
 
-<!--
-**DuongMinhHoangHE191087/DuongMinhHoangHE191087** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+name: Generate contribution snake
 
-Here are some ideas to get you started:
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
