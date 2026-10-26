@@ -157,7 +157,8 @@ flowchart TB
   IN["SePay webhook<br/>VietQR transfer"] --> TX["BEGIN<br/>transaction"]
   TX --> SEEN{"bank tx ID<br/>seen before?"}
   SEEN -- yes --> DUP["return duplicate<br/>no side effects"]
-  SEEN -- no --> OK{"direction, account,<br/>reference, status,<br/>amount all match?"}
+  SEEN -- no --> CHECK["check direction, account,<br/>reference, status, amount"]
+  CHECK --> OK{"all match?"}
   OK -- no --> SKIP["record skip reason"]
   OK -- yes --> PAY["mark paid,<br/>finalize order"]
   SKIP --> COMMIT["COMMIT"]
