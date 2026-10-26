@@ -153,7 +153,7 @@ flowchart LR
 ### Webhook thanh toán
 
 ```mermaid
-flowchart LR
+flowchart TB
   IN["SePay webhook<br/>VietQR transfer"] --> TX["BEGIN<br/>transaction"]
   TX --> SEEN{"bank tx ID<br/>seen before?"}
   SEEN -- yes --> DUP["return duplicate<br/>no side effects"]
