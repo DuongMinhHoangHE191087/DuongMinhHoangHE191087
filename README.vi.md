@@ -29,8 +29,8 @@ Mình là sinh viên Đại học FPT Hà Nội. Mình làm app Android và iOS 
     <td width="150"><b>Mobile</b></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin,androidstudio,java,gradle,firebase&theme=dark">
-        <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,java,gradle,firebase&theme=light" height="40" alt="Kotlin, Android Studio, Java, Gradle, Firebase">
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin%2Candroidstudio%2Cjava%2Cgradle%2Cfirebase&theme=dark">
+        <img src="https://skillicons.dev/icons?i=kotlin%2Candroidstudio%2Cjava%2Cgradle%2Cfirebase&theme=light" height="40" alt="Kotlin, Android Studio, Java, Gradle, Firebase">
       </picture>
       <br><sub>Kotlin Multiplatform, Compose Multiplatform, Jetpack Compose, Coroutines, CameraX, Room, WorkManager, JNI</sub>
     </td>
@@ -39,8 +39,8 @@ Mình là sinh viên Đại học FPT Hà Nội. Mình làm app Android và iOS 
     <td><b>Web</b></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite,nodejs&theme=dark">
-        <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite,nodejs&theme=light" height="40" alt="TypeScript, React, Next.js, Tailwind CSS, Vite, Node.js">
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Creact%2Cnextjs%2Ctailwind%2Cvite%2Cnodejs&theme=dark">
+        <img src="https://skillicons.dev/icons?i=ts%2Creact%2Cnextjs%2Ctailwind%2Cvite%2Cnodejs&theme=light" height="40" alt="TypeScript, React, Next.js, Tailwind CSS, Vite, Node.js">
       </picture>
       <br><sub>Next.js App Router, TanStack Query, Zod, Express, Playwright, Vitest</sub>
     </td>
@@ -49,8 +49,8 @@ Mình là sinh viên Đại học FPT Hà Nội. Mình làm app Android và iOS 
     <td><b>Backend &amp; dữ liệu</b></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,postgres,supabase,redis,py&theme=dark">
-        <img src="https://skillicons.dev/icons?i=java,postgres,supabase,redis,py&theme=light" height="40" alt="Java, PostgreSQL, Supabase, Redis, Python">
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cpostgres%2Csupabase%2Credis%2Cpy&theme=dark">
+        <img src="https://skillicons.dev/icons?i=java%2Cpostgres%2Csupabase%2Credis%2Cpy&theme=light" height="40" alt="Java, PostgreSQL, Supabase, Redis, Python">
       </picture>
       <br><sub>Jakarta EE (Servlet, JSP, WebSocket), SQL Server, Postgres row-level security, REST API, webhook</sub>
     </td>
@@ -59,8 +59,8 @@ Mình là sinh viên Đại học FPT Hà Nội. Mình làm app Android và iOS 
     <td><b>Công cụ</b></td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,githubactions,vercel&theme=dark">
-        <img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel&theme=light" height="40" alt="Git, GitHub, GitHub Actions, Vercel">
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git%2Cgithub%2Cgithubactions%2Cvercel&theme=dark">
+        <img src="https://skillicons.dev/icons?i=git%2Cgithub%2Cgithubactions%2Cvercel&theme=light" height="40" alt="Git, GitHub, GitHub Actions, Vercel">
       </picture>
       <br><sub>CI pipeline, bản build release R8, Google Gemini API</sub>
     </td>
