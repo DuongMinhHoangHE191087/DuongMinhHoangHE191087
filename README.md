@@ -1,167 +1,156 @@
-<!--
-  PROFILE README
-  Đặt nội dung này vào file README.md ở nhánh main của repo:
-  https://github.com/DuongMinhHoangHE191087/DuongMinhHoangHE191087
-  (Thay toàn bộ nội dung hiện tại. Nội dung snake.yml đang bị dán nhầm vào đây, cần xóa đi.)
-  Các mục đánh dấu <!-- Sửa --> là phần bạn nên kiểm tra và chỉnh lại cho đúng với bản thân.
--->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:7C3AED,100:EC4899&height=220&section=header&text=Duong%20Minh%20Hoang&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=FPT%20University%20Student&descAlignY=60&descSize=20" alt="header" />
-
-<a href="https://github.com/DuongMinhHoangHE191087">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=800&lines=Java+%26+Next.js+Developer;AI-powered+web+apps;Backend+%26+Full-stack+Engineer;Open+source+enthusiast" alt="Typing animation" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" width="100%" alt="Dương Minh Hoàng. Mobile & Full-stack Developer. FPT University, Hà Nội. Open to internship opportunities.">
+</picture>
 
 <p>
-  <a href="https://www.facebook.com/Duong.Minh.Hoang.edu.vn"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
-  <img src="https://komarev.com/ghpvc/?username=DuongMinhHoangHE191087&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="profile views" />
+  <a href="mailto:hoangduongminhinwork@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.facebook.com/Duong.Minh.Hoang.edu.vn"><img src="https://img.shields.io/badge/Facebook-0d1117?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
 </p>
+
+<sub><b>English</b> | <a href="README.vi.md">Tiếng Việt</a></sub>
 
 </div>
 
----
+## About
 
-## 👋 Giới thiệu
+I'm a student at FPT University in Hà Nội. I build complete products: Android and iOS apps from one Kotlin Multiplatform codebase, web apps with Next.js and TypeScript, and Java backends with payments and role-based access. I set up tests and CI early, and I record architecture decisions as I go.
 
-<table>
-<tr>
-<td width="65%">
+- **Now:** two Kotlin Multiplatform apps for Android and iOS, a game encyclopedia and a pose-guided camera.
+- **Looking for:** an internship in mobile (Android, Kotlin Multiplatform) or full-stack development.
 
-- 🎓 Sinh viên **FPT University**, Hà Nội
-- 🧠 Tập trung vào: **Web app với Next.js & TypeScript**, **backend Java (Servlet/JSP)**, **tích hợp AI (Google Gemini)**
-- 📱 Đã thử: **Android (Kotlin + Firebase)**, **Unity**
-- 🔭 Đang xây: **Hồi Nét** (khôi phục ảnh cũ bằng AI) và **MetaFruit** (sàn thương mại điện tử hoa quả)
-- 🌱 Đang học: <!-- Sửa: ví dụ thiết kế hệ thống, cấu trúc dữ liệu & thuật toán -->
-- 🤝 Tìm kiếm: cộng tác dự án open source, cơ hội thực tập backend / full-stack <!-- Sửa nếu cần -->
-- 📫 Liên hệ: [Facebook](https://www.facebook.com/Duong.Minh.Hoang.edu.vn)
-
-</td>
-<td align="center" width="35%">
-  <img src="https://github.com/DuongMinhHoangHE191087.png" width="170" alt="avatar" />
-</td>
-</tr>
-</table>
-
-## 🛠 Công nghệ
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,kotlin,typescript,nextjs,react,tailwind,firebase,postgres,mysql,unity,cs,docker,git,github,vercel" alt="tech stack" />
-</p>
-
-## 🚀 Dự án nổi bật
+## Tech stack
 
 <table>
-<tr>
-<td align="center" width="50%">
-  <a href="https://github.com/DuongMinhHoangHE191087/hoi_net">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DuongMinhHoangHE191087&repo=hoi_net&theme=tokyonight&hide_border=true" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=DuongMinhHoangHE191087&repo=hoi_net&hide_border=true" alt="hoi_net" />
-    </picture>
-  </a>
-</td>
-<td align="center" width="50%">
-  <a href="https://github.com/DuongMinhHoangHE191087/Ban_Hoa_Qua_Online">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DuongMinhHoangHE191087&repo=Ban_Hoa_Qua_Online&theme=tokyonight&hide_border=true" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=DuongMinhHoangHE191087&repo=Ban_Hoa_Qua_Online&hide_border=true" alt="Ban_Hoa_Qua_Online" />
-    </picture>
-  </a>
-</td>
-</tr>
+  <tr>
+    <td width="150"><b>Mobile</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin,androidstudio,java,gradle,firebase&theme=dark">
+        <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,java,gradle,firebase&theme=light" height="40" alt="Kotlin, Android Studio, Java, Gradle, Firebase">
+      </picture>
+      <br><sub>Kotlin Multiplatform, Compose Multiplatform, Jetpack Compose, Coroutines, CameraX, Room, WorkManager, JNI</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Web</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite,nodejs&theme=dark">
+        <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite,nodejs&theme=light" height="40" alt="TypeScript, React, Next.js, Tailwind CSS, Vite, Node.js">
+      </picture>
+      <br><sub>Next.js App Router, TanStack Query, Zod, Express, Playwright, Vitest</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend &amp; data</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,postgres,supabase,redis,py&theme=dark">
+        <img src="https://skillicons.dev/icons?i=java,postgres,supabase,redis,py&theme=light" height="40" alt="Java, PostgreSQL, Supabase, Redis, Python">
+      </picture>
+      <br><sub>Jakarta EE (Servlet, JSP, WebSocket), SQL Server, Postgres row-level security, REST APIs, webhooks</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Tooling</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,githubactions,vercel&theme=dark">
+        <img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel&theme=light" height="40" alt="Git, GitHub, GitHub Actions, Vercel">
+      </picture>
+      <br><sub>CI pipelines, R8 release builds, Google Gemini API</sub>
+    </td>
+  </tr>
 </table>
 
-### 🎨 Hồi Nét: Khôi phục ảnh cũ bằng AI
+## Featured projects
 
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+Most of my recent work lives in private repositories. I'm happy to walk through the code in an interview.
 
-- Khôi phục, nâng cấp chất lượng và tô màu ảnh đen trắng bằng Google Gemini
-- Đăng nhập email và Google OAuth qua Supabase, có hCaptcha chống spam
-- Admin panel quản lý người dùng, yêu cầu xử lý ảnh, blog; có optimistic locking chống ghi đè khi nhiều admin cùng sửa
+### Yokai Wiki Search
 
-🔗 [Demo](https://web-ssg.vercel.app) · [Source](https://github.com/DuongMinhHoangHE191087/hoi_net)
+Encyclopedia app for the Yo-kai Watch games on Android and iOS, built from one Kotlin Multiplatform codebase.
 
-### 🛒 MetaFruit: Sàn thương mại điện tử hoa quả đa cửa hàng
+`Kotlin 2.4` `Compose Multiplatform` `Coroutines` `DataStore` `Coil` `GitHub Actions`
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Jakarta EE](https://img.shields.io/badge/Jakarta_EE-10-0A66C2?style=flat-square) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) ![Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black)
+- About 60k lines of shared Kotlin hold the UI and logic for both platforms.
+- Two product editions come from one codebase and one Gradle flag. Edition-specific source sets keep the ad SDK out of the kids build.
+- About 1,300 unit tests. CI tests Android, builds debug and R8 release artifacts, and compiles the iOS targets on macOS.
+- A Gradle release gate refuses store builds that still carry placeholder IDs.
 
-- Kiến trúc MVC phân lớp: Controller → Service → DAO, toàn bộ SQL dùng PreparedStatement
-- 5 vai trò (khách, khách hàng, chủ shop, shipper, admin) với phân quyền RBAC
-- Thanh toán VietQR tự động qua webhook SePay, tự động kết toán ví cho chủ shop
-- Bảo mật: băm mật khẩu BCrypt, CSRF filter, PRG pattern chống đặt đơn trùng khi F5
+<sub>Status: Android release build verified on an emulator, iOS compiles in CI, not published yet. Private repository.</sub>
 
-🔗 [Demo](https://banhoaquaonline.vercel.app) · [Source](https://github.com/DuongMinhHoangHE191087/Ban_Hoa_Qua_Online)
+### PoseCam
 
-### 🎟 SELLING_TICKET: Hệ thống bán vé
+Camera app that overlays pose templates on the live viewfinder and shoots pose sequences. Kotlin Multiplatform, with CameraX on Android.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+`Kotlin` `Compose Multiplatform` `CameraX` `kotlinx.serialization` `Python`
 
-- Ứng dụng bán vé viết bằng Java, kèm script khởi tạo dữ liệu mẫu `full_reset_seed.sql`
-- <!-- Sửa: thêm 1–2 tính năng chính của dự án này -->
+- Each feature is split into domain, data and presentation layers. Key choices are written up in 12 architecture decision records.
+- Color grading runs on a CPU LUT engine written in Kotlin, with a Python tool that bakes the LUTs.
+- A remote pose catalog is fetched, validated, cached and merged with the bundled poses.
+- About 1,400 tests, including desktop Compose UI tests. A fake camera powers a demo flavor.
 
-🔗 [Source](https://github.com/DuongMinhHoangHE191087/SELLING_TICKET)
+<sub>Status: in development on Android. Private repository.</sub>
 
-### 📱 DemNgayYeuAndroid: Ứng dụng Android đếm ngày yêu
+### UA analytics dashboard
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+Dashboard for a mobile game studio. It pulls live spend, revenue and app-quality data from seven ad and analytics APIs.
 
-- Ứng dụng Android đếm ngày yêu, dùng Firebase (Firestore, Functions) làm backend
-- Fork từ [dghoang/DemNgayYeuAndroid](https://github.com/dghoang/DemNgayYeuAndroid)
+`TypeScript` `React 19` `Express` `Supabase` `Vercel Cron` `GitHub Actions`
 
-🔗 [Source](https://github.com/DuongMinhHoangHE191087/DemNgayYeuAndroid)
+- One provider module per source (Google Ads, Meta, Unity Ads, AppLovin, AppsFlyer, AdMob, Play Vitals), normalized into a single data model.
+- A Google Ads quota limiter caps concurrency, spaces requests, enforces a daily ceiling and backs off on HTTP 429.
+- GitHub Actions syncs snapshots into Supabase every 30 minutes. Vercel Cron sends a daily report to Telegram.
+- 64 offline check suites (about 2,600 assertions) run in CI with type-checking and the build.
+- Sessions use httpOnly cookies, and secrets are masked before any data reaches the Gemini prompt.
 
-### 🎮 Project2DFGU: Dự án game Unity
+<sub>Private repository, real studio data.</sub>
 
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+### Hồi Nét
 
-- <!-- Sửa: mô tả thể loại game, cơ chế chính và trạng thái hiện tại -->
+Web app that restores, sharpens and colorizes old photos with Google Gemini.
 
-🔗 [Source](https://github.com/DuongMinhHoangHE191087/Project2DFGU)
+<a href="https://web-ssg.vercel.app"><img src="assets/hoi-net.jpg" width="100%" alt="Hồi Nét home page: restore and revive old photos with AI"></a>
 
-## 🏅 Thành tích
+`Next.js 16` `TypeScript` `Supabase` `Gemini API` `Redis` `TanStack Query`
 
-- GitHub Achievements: **Pair Extraordinaire** ×3 · **Pull Shark** ×2 · **YOLO**
-- Tài khoản GitHub Pro
+- Email and Google sign-in through Supabase, with hCaptcha, CSRF protection and Redis-backed rate limiting.
+- Admin CMS for users, restore requests and blog posts. Optimistic locking returns HTTP 409 and shows a conflict dialog when two admins edit the same record.
+- Background removal runs in the browser with ONNX Runtime Web.
 
-## 📊 Thống kê GitHub
+**[Live demo](https://web-ssg.vercel.app)** | **[Source](https://github.com/DuongMinhHoangHE191087/hoi_net)**
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=DuongMinhHoangHE191087&show_icons=true&theme=tokyonight&hide_border=true" />
-    <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=DuongMinhHoangHE191087&show_icons=true&hide_border=true" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=DuongMinhHoangHE191087&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
-    <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DuongMinhHoangHE191087&layout=compact&langs_count=8&hide_border=true" />
-  </picture>
-</p>
+### Ban Hoa Qua Online
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=DuongMinhHoangHE191087&theme=tokyonight&hide_border=true" />
-    <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=DuongMinhHoangHE191087&hide_border=true" />
-  </picture>
-</p>
+Multi-vendor fruit marketplace with five roles: guest, customer, shop owner, shipper and admin.
 
-## 🐍 Hoạt động đóng góp
+`Java 17` `Jakarta EE 10` `Servlet / JSP` `SQL Server` `Tomcat 10` `WebSocket`
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DuongMinhHoangHE191087/DuongMinhHoangHE191087/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/DuongMinhHoangHE191087/DuongMinhHoangHE191087/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
+- Layered Servlet, Service and DAO code. A filter chain handles authentication, role checks, CSRF, rate limiting and security headers.
+- VietQR payments arrive through a SePay webhook with deduplication, amount and reference matching, and a transactional order finalize step.
+- Scheduled jobs settle shop wallets, cancel unpaid orders and reconcile payments.
+- Buyer and seller chat over WebSocket, plus Google sign-in.
+- Team of four. I wrote about 80% of the commits.
 
-<!-- Ảnh rắn chỉ hiện sau khi đặt snake.yml vào .github/workflows/ và chạy Action lần đầu. -->
+**[Source](https://github.com/DuongMinhHoangHE191087/Ban_Hoa_Qua_Online)**
 
-## 📫 Kết nối
+## More projects
 
-<p align="center">
-  <a href="https://www.facebook.com/Duong.Minh.Hoang.edu.vn"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
-  <!-- Zalo: thêm nếu muốn, đã có số điện thoại công khai trên profile nên cân nhắc trước khi thêm -->
-  <a href="https://github.com/DuongMinhHoangHE191087/DuongMinhHoangHE191087.github.io"><img src="https://img.shields.io/badge/Website-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website" /></a>
-</p>
+| Project | What I did | Stack |
+| --- | --- | --- |
+| **[Ticketbox](https://github.com/dghoang/PRJ301_GROUP7_SELLING_TICKET)** | Team leader for an event-ticketing course project (FPT PRJ301). QR e-tickets signed with HMAC for check-in, SePay payments, support chat over WebSocket. | Java, Servlet / JSP, SQL Server |
+| **Class management SaaS** | Multi-tenant app for teachers: schedules, attendance and tuition billing. Postgres row-level security per tenant, atomic billing and idempotent payments in database functions, database tests in CI. | Next.js, Supabase, Vitest, Playwright |
+| **On-device meeting notes** | Team project for a MediaTek Genio 720 AI box: offline speech-to-text and LLM summaries. I built the Android app layer: recording flow, Room database and the AI pipeline. | Kotlin, Android, Room, JNI |
+| **Data-logger hardening** | Audited a legacy Android data-logger (Java, JNI serial port, TCP sensors). Logged 56 bugs and fixed them in 10 batches, with regression tests and CI that includes CodeQL. | Java, Android NDK, GitHub Actions |
+| **[Game studio website](https://metafruit-psi.vercel.app)** | Bilingual company site with a Git-based CMS, plus Playwright end-to-end, accessibility (axe) and SEO checks. | Next.js 16, Tailwind 4, GSAP, Keystatic |
 
-<p align="center"><sub>⭐ Cảm ơn bạn đã ghé thăm profile của mình!</sub></p>
+## GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DuongMinhHoangHE191087/DuongMinhHoangHE191087/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/DuongMinhHoangHE191087/DuongMinhHoangHE191087/output/snake-light.svg" width="100%" alt="Contribution graph drawn as a snake">
+</picture>
